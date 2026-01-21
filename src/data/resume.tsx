@@ -44,6 +44,7 @@ export interface ResumeData {
   };
   traits: {
     icon: string;
+    logo?: string;
     title: string;
     subtitle: string;
   }[];
@@ -62,19 +63,25 @@ export const resumeData: ResumeData = {
         Advising clients on <span className="text-white font-bold">patent litigation</span> and <span className="text-white font-bold">transactional IP matters</span>. Admitted in <span className="text-white font-bold">New York</span> & <span className="text-white font-bold">USPTO</span>.
       </>
     ),
-    avatar: "https://ui-avatars.com/api/?name=Shivani+Prakash&background=random&size=256",
+    avatar: "https://media.licdn.com/dms/image/v2/D4E03AQEmBPhvhrJfbw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732137454357?e=1770854400&v=beta&t=BIee-2BMa0WHcB23klFy1H9VxRQCRLfTUjbJnMrZmCo",
     linkedin: "https://www.linkedin.com/in/shivani-prakash-0b33a5149/",
   },
   traits: [
     {
       icon: "akin",
+      logo: "https://pbs.twimg.com/profile_images/1973772417580314624/ish6D32g_400x400.png",
       title: "Associate @ Akin",
       subtitle: "Intellectual Property",
     },
     {
       icon: "notre_dame",
-      title: "J.D. @ Notre Dame",
-      subtitle: "Cum Laude",
+      title: "Juris Doctor (JD)",
+      subtitle: "Notre Dame Law",
+    },
+    {
+      icon: "penn",
+      title: "BAS - Biomedical Sciences",
+      subtitle: "Penn",
     },
   ],
   experience: [
@@ -90,11 +97,15 @@ export const resumeData: ResumeData = {
       roles: [
         {
           title: "Associate",
-          duration: "Present",
+          duration: "2024 - Present",
         },
         {
           title: "Summer Associate",
-          duration: "2022 — 2023",
+          duration: "2023 — 2023",
+        },
+                {
+          title: "1L Summer Associate",
+          duration: "2022 — 2022",
         },
       ],
     },
@@ -106,27 +117,35 @@ export const resumeData: ResumeData = {
       description:
         "Legal extern for Notre Dame's Intellectual Property clinic.",
       icon: null,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Notre_Dame_Fighting_Irish_logo.svg/1200px-Notre_Dame_Fighting_Irish_logo.svg",
+      logo: "https://logos-world.net/wp-content/uploads/2021/09/Notre-Dame-Symbol.png",
       roles: [
       ],
     },
     {
-      company: "JUSTICE",
-      team: "Legal Extern",
+      company: "Arent Fox",
+      team: "International Trade Paralegal",
       location: "London, UK",
       duration: "2022",
       description:
-        "Legal extern for JUSTICE, a UK-based non-profit organization.",
+        "Project Assistant in the International Trade division",
       icon: null,
-      logo: null,
+      logo: "https://pbs.twimg.com/profile_images/1278386943932485632/fc0jRoZl_400x400.jpg",
       roles: [
+        {
+          title: "Paralegal",
+          duration: "2021 - 2021",
+        },
+        {
+          title: "Project Assistant",
+          duration: "2019 — 2021",
+        },
       ],
     },
   ],
   education: [
     {
       school: "Notre Dame Law School",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Notre_Dame_Fighting_Irish_logo.svg/960px-Notre_Dame_Fighting_Irish_logo.svg",
+      logo: "https://logos-world.net/wp-content/uploads/2021/09/Notre-Dame-Symbol.png",
       duration: "2021 - 2024",
       location: "South Bend, IN",
       honors: "Cum Laude",
