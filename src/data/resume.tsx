@@ -91,7 +91,7 @@ export const resumeData: ResumeData = {
   experience: [
     {
       company: "Akin",
-      team: "Intellectual Property",
+      team: "Intellectual Property Associate",
       location: "New York, NY",
       duration: "Present",
       description:
