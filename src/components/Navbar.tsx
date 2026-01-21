@@ -40,7 +40,7 @@ export default function Navbar() {
           <div className="flex-1 flex justify-start">
             <Link href="#hero" className="group flex items-center gap-2.5 md:gap-3">
               <div className="logo-box">
-                <span className="logo-text text-sm md:text-lg">RK</span>
+                <span className="logo-text text-sm md:text-lg">SP</span>
               </div>
               <div className="flex flex-col leading-none">
                 <span className="text-[9px] md:text-[11px] font-black tracking-[0.2em] text-white pb-[2px]">

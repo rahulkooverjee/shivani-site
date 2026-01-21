@@ -106,7 +106,7 @@ export const resumeData: ResumeData = {
       description:
         "Legal extern for Notre Dame's Intellectual Property clinic.",
       icon: null,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Notre_Dame_Fighting_Irish_logo.svg/1200px-Notre_Dame_Fighting_Irish_logo.svg.png",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Notre_Dame_Fighting_Irish_logo.svg/1200px-Notre_Dame_Fighting_Irish_logo.svg",
       roles: [
       ],
     },
@@ -126,7 +126,7 @@ export const resumeData: ResumeData = {
   education: [
     {
       school: "Notre Dame Law School",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Notre_Dame_Fighting_Irish_logo.svg/1200px-Notre_Dame_Fighting_Irish_logo.svg.png",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Notre_Dame_Fighting_Irish_logo.svg/960px-Notre_Dame_Fighting_Irish_logo.svg",
       duration: "2024",
       location: "South Bend, IN",
       gpa: "",
