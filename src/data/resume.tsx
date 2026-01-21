@@ -131,7 +131,7 @@ export const resumeData: ResumeData = {
       location: "Washington DC",
       duration: "2019-2021",
       description:
-        "Project Assistant in the International Trade division",
+        "Project Assistant / Paralegal in the International Trade division",
       icon: null,
       logo: "https://pbs.twimg.com/profile_images/1278386943932485632/fc0jRoZl_400x400.jpg",
       roles: [
