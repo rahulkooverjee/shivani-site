@@ -127,7 +127,7 @@ export const resumeData: ResumeData = {
     {
       school: "Notre Dame Law School",
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Notre_Dame_Fighting_Irish_logo.svg/960px-Notre_Dame_Fighting_Irish_logo.svg",
-      duration: "2024",
+      duration: "2021 - 2024",
       location: "South Bend, IN",
       gpa: "",
       honors: "Cum Laude",
@@ -142,7 +142,7 @@ export const resumeData: ResumeData = {
     {
       school: "University of Pennsylvania",
       logo: "https://sportslogohistory.com/wp-content/uploads/2022/11/penn_quakers_2004-2017_a.png",
-      duration: "2019",
+      duration: "2015 - 2019",
       location: "Philadelphia, PA",
       gpa: "",
       honors: "",
