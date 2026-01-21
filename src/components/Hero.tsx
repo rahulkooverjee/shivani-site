@@ -32,6 +32,20 @@ export default function Hero() {
             className="trait-card py-5 px-10 rounded-[32px] flex items-center gap-6"
           >
             {trait.icon === "google" && <GoogleIcon />}
+            {trait.icon === "akin" && (
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Akin.svg/512px-Akin.svg.png"
+                className="w-10 h-10 object-contain shrink-0"
+                alt="Akin"
+              />
+            )}
+            {trait.icon === "notre_dame" && (
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Notre_Dame_Fighting_Irish_logo.svg/1200px-Notre_Dame_Fighting_Irish_logo.svg.png"
+                className="w-10 h-10 object-contain shrink-0"
+                alt="Notre Dame"
+              />
+            )}
             {trait.icon === "penn" && (
               <img
                 src="https://sportslogohistory.com/wp-content/uploads/2022/11/penn_quakers_2004-2017_a.png"

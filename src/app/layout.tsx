@@ -15,12 +15,12 @@ const grotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Rahul Kooverjee",
+  title: "Shivani Prakash",
   description: "Senior Product Manager at Google",
   openGraph: {
-    title: "Rahul Kooverjee",
+    title: "Shivani Prakash",
     description: "Senior Product Manager at Google",
-    siteName: "Rahul Kooverjee",
+    siteName: "Shivani Prakash",
     locale: "en_US",
     type: "website",
   },

@@ -55,133 +55,102 @@ export const resumeData: ResumeData = {
   personal: {
     name: "Shivani",
     surname: "Prakash",
-    title: "Senior Product Manager",
-    company: "Google",
+    title: "Associate, Intellectual Property",
+    company: "Akin",
     tagline: (
       <>
-        Building <span className="text-white font-bold">incredible products</span> using{" "}
-         at a <span className="text-white font-bold">global scale</span> (sometimes even with <span className="text-white font-bold">AI</span>!)
+        Advising clients on <span className="text-white font-bold">patent litigation</span> and <span className="text-white font-bold">transactional IP matters</span>. Admitted in <span className="text-white font-bold">New York</span> & <span className="text-white font-bold">USPTO</span>.
       </>
     ),
-    avatar: "https://media.licdn.com/dms/image/v2/D4E03AQGb24CXMSz23A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732654229324?e=1769644800&v=beta&t=i9BsCx6_NKnHlJWmDT-zDWq50FWb-y-3mvyTsWwNoBY",
+    avatar: "https://ui-avatars.com/api/?name=Shivani+Prakash&background=random&size=256",
     linkedin: "https://www.linkedin.com/in/shivani-prakash-0b33a5149/",
   },
   traits: [
     {
-      icon: "google",
-      title: "Senior PM @ Google",
-      subtitle: "Former APM",
+      icon: "akin",
+      title: "Associate @ Akin",
+      subtitle: "Intellectual Property",
     },
     {
-      icon: "penn",
-      title: "Finance + CS @ Penn",
-      subtitle: "Summa Cum Laude",
+      icon: "notre_dame",
+      title: "J.D. @ Notre Dame",
+      subtitle: "Cum Laude",
     },
   ],
   experience: [
     {
-      company: "Google Ad Manager",
-      team: "Senior Product Manager",
+      company: "Akin",
+      team: "Intellectual Property",
       location: "New York, NY",
-      duration: "2020 — Present",
+      duration: "Present",
       description:
-        "Growing publisher monetization through new innovations (auction optimizations, addressability signals, new ways of monetizing, etc...)",
+        "Advising clients on patent litigation and transactional IP matters, including complex mergers, asset/stock purchases and acquisitions, IP licenses, and diligence reviews.",
       icon: null,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Akin.svg/512px-Akin.svg.png",
       roles: [
         {
-          title: "Senior Product Manager",
-          duration: "2025 — Present",
+          title: "Associate",
+          duration: "Present",
         },
         {
-          title: "Product Manager II",
-          duration: "2023 — 2025",
-        },
-        {
-          title: "Product Manager I",
-          duration: "2021 — 2023",
-        },
-        {
-          title: "Associate Product Manager II",
-          duration: "2020 — 2021",
+          title: "Summer Associate",
+          duration: "2022 — 2023",
         },
       ],
     },
     {
-      company: "Google Doodles & Search Delight",
-      team: "Associate Product Manager",
-      location: "Mountain View CA",
-      duration: "2019 — 2020",
+      company: "Notre Dame Law School",
+      team: "Legal Extern",
+      location: "South Bend, IN",
+      duration: "2023 — 2024",
       description:
-        "Bringing delight to billions of users through Doodles, Easter Eggs, and other fun sparkles of joy on Google Search",
+        "Legal extern for Notre Dame's Intellectual Property clinic.",
       icon: null,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Notre_Dame_Fighting_Irish_logo.svg/1200px-Notre_Dame_Fighting_Irish_logo.svg.png",
       roles: [
       ],
     },
     {
-      company: "Google Search Ads",
-      team: "APM Intern",
-      location: "Mountain View CA",
-      duration: "2018 — 2018",
+      company: "JUSTICE",
+      team: "Legal Extern",
+      location: "London, UK",
+      duration: "2022",
       description:
-        "Improving advertiser experience of our ML-powered automated Search Ad targeting",
+        "Legal extern for JUSTICE, a UK-based non-profit organization.",
       icon: null,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png",
-      roles: [
-      ],
-    },
-    {
-      company: "Intro to Computer Science (CIS 110)",
-      team: "Head Teaching Assistant",
-      location: "Philadelphia, PA",
-      duration: "2016 — 2019",
-      description:
-        "Course, curriculum, and TA staff management for Penn's intro CS course (~300 students / semester)",
-      icon: null,
-      logo: "https://sportslogohistory.com/wp-content/uploads/2022/11/penn_quakers_2004-2017_a.png",
-      roles: [
-        {
-          title: "Head Teaching Assistant",
-          duration: "2017 — 2019",
-        },
-        {
-          title: "Teaching Assistant",
-          duration: "2016 — 2017",
-        },
-      ],
-    },
-    {
-      company: "Bank of America",
-      team: "Summer Technology Analyst",
-      location: "Jersey City, NJ",
-      duration: "2017 — 2017",
-      description:
-        "Full stack software development in the Global Middle Office Technology group",
-      icon: null,
-      logo: "https://companieslogo.com/img/orig/BAC-e7995069.png?t=1720244490",
+      logo: null,
       roles: [
       ],
     },
   ],
   education: [
     {
-      school: "University of Pennsylvania",
-      logo: "https://sportslogohistory.com/wp-content/uploads/2022/11/penn_quakers_2004-2017_a.png",
-      duration: "2015 — 2019",
-      location: "Philadelphia, PA",
-      gpa: "3.95 GPA",
-      honors: "Summa Cum Laude",
+      school: "Notre Dame Law School",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Notre_Dame_Fighting_Irish_logo.svg/1200px-Notre_Dame_Fighting_Irish_logo.svg.png",
+      duration: "2024",
+      location: "South Bend, IN",
+      gpa: "",
+      honors: "Cum Laude",
       degrees: [
         {
-          school: "Wharton",
-          degree: "BS - Economics",
-          detail: "Concentration in Finance",
+          school: "Notre Dame Law School",
+          degree: "Juris Doctor (J.D.)",
+          detail: "Executive Editor, Journal of Law, Ethics and Public Policy",
         },
+      ],
+    },
+    {
+      school: "University of Pennsylvania",
+      logo: "https://sportslogohistory.com/wp-content/uploads/2022/11/penn_quakers_2004-2017_a.png",
+      duration: "2019",
+      location: "Philadelphia, PA",
+      gpa: "",
+      honors: "",
+      degrees: [
         {
           school: "School of Engineering and Applied Science",
-          degree: "BAS - Computer Science",
-          detail: "Minors in Math & Data Science",
+          degree: "B.A.S. - Biomedical Sciences",
+          detail: "",
         },
       ],
     },
