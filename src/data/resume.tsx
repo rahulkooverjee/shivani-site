@@ -60,7 +60,7 @@ export const resumeData: ResumeData = {
     company: "Akin",
     tagline: (
       <>
-        Advising clients on <span className="text-white font-bold">patent litigation</span> and <span className="text-white font-bold">transactional IP matters</span>. Admitted in <span className="text-white font-bold">New York</span> & <span className="text-white font-bold">USPTO</span>.
+        Advising clients on <span className="text-white font-bold">patent litigation</span> and <span className="text-white font-bold">transactional IP matters</span>.<br /><span className="text-white font-bold">New York State</span> & <span className="text-white font-bold">USPTO</span> bar admissions.
       </>
     ),
     avatar: "https://media.licdn.com/dms/image/v2/D4E03AQEmBPhvhrJfbw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732137454357?e=1770854400&v=beta&t=BIee-2BMa0WHcB23klFy1H9VxRQCRLfTUjbJnMrZmCo",
@@ -70,18 +70,19 @@ export const resumeData: ResumeData = {
     {
       icon: "akin",
       logo: "https://pbs.twimg.com/profile_images/1973772417580314624/ish6D32g_400x400.png",
-      title: "Associate @ Akin",
-      subtitle: "Intellectual Property",
+      title: "IP Associate",
+      subtitle: "Akin",
     },
     {
       icon: "notre_dame",
       title: "Juris Doctor (JD)",
+      logo: "https://logos-world.net/wp-content/uploads/2021/09/Notre-Dame-Symbol.png",
       subtitle: "Notre Dame Law",
     },
     {
       icon: "penn",
-      title: "BAS - Biomedical Sciences",
-      subtitle: "Penn",
+      title: "BAS - Biomedical Science",
+      subtitle: "Penn Engineering",
     },
   ],
   experience: [
@@ -124,8 +125,8 @@ export const resumeData: ResumeData = {
     {
       company: "Arent Fox",
       team: "International Trade Paralegal",
-      location: "London, UK",
-      duration: "2022",
+      location: "Washington DC",
+      duration: "2019-2021",
       description:
         "Project Assistant in the International Trade division",
       icon: null,
