@@ -47,15 +47,15 @@ export default function Education() {
                   {(edu.honors || edu.gpa) && (
                     <div className="flex flex-wrap items-center gap-2 mb-4">
                       {edu.honors && (
-                        <div className="px-3 py-1 bg-white/5 rounded-lg border border-white/10">
-                          <span className="text-[10px] font-bold text-slate-300 uppercase tracking-widest">
+                        <div className="px-3 py-1 bg-white/5 rounded-lg border border-white/10 flex items-center justify-center">
+                          <span className="text-[10px] font-bold text-slate-300 uppercase tracking-widest text-center">
                             {edu.honors}
                           </span>
                         </div>
                       )}
                       {edu.gpa && (
-                        <div className="px-3 py-1 bg-blue-500/10 rounded-lg border border-blue-500/20">
-                          <span className="text-[10px] font-bold text-blue-400 uppercase tracking-widest">
+                        <div className="px-3 py-1 bg-blue-500/10 rounded-lg border border-blue-500/20 flex items-center justify-center">
+                          <span className="text-[10px] font-bold text-blue-400 uppercase tracking-widest text-center">
                             GPA: {edu.gpa}
                           </span>
                         </div>
