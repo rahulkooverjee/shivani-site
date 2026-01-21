@@ -60,7 +60,10 @@ export const resumeData: ResumeData = {
     company: "Akin",
     tagline: (
       <>
-        Advising clients on <span className="text-white font-bold">patent litigation</span> and <span className="text-white font-bold">transactional IP matters</span>.<br /><span className="text-white font-bold">New York State</span> & <span className="text-white font-bold">USPTO</span> bar admissions.
+        Advising clients on <span className="text-white font-bold">patent litigation</span> and <span className="text-white font-bold">transactional IP matters</span>.
+        <span className="block mt-4">
+          <span className="text-white font-bold">New York State</span> & <span className="text-white font-bold">USPTO</span> bar admissions.
+        </span>
       </>
     ),
     avatar: "https://media.licdn.com/dms/image/v2/D4E03AQEmBPhvhrJfbw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732137454357?e=1770854400&v=beta&t=BIee-2BMa0WHcB23klFy1H9VxRQCRLfTUjbJnMrZmCo",
@@ -153,8 +156,8 @@ export const resumeData: ResumeData = {
       degrees: [
         {
           school: "Notre Dame Law School",
-          degree: "Juris Doctor (J.D.)",
-          detail: "Executive Editor, Journal of Law, Ethics and Public Policy",
+          degree: "Juris Doctor (JD)",
+          detail: "Executive Editor - Journal of Law, Ethics and Public Policy",
         },
       ],
     },
