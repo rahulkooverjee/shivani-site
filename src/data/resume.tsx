@@ -27,7 +27,7 @@ export interface EducationItem {
   logo: string;
   duration: string;
   location?: string;
-  gpa: string;
+  gpa?: string;
   honors: string;
   degrees: EducationDegree[];
 }
@@ -86,7 +86,7 @@ export const resumeData: ResumeData = {
       description:
         "Advising clients on patent litigation and transactional IP matters, including complex mergers, asset/stock purchases and acquisitions, IP licenses, and diligence reviews.",
       icon: null,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Akin.svg/512px-Akin.svg.png",
+      logo: "https://pbs.twimg.com/profile_images/1973772417580314624/ish6D32g_400x400.png",
       roles: [
         {
           title: "Associate",
@@ -129,7 +129,6 @@ export const resumeData: ResumeData = {
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Notre_Dame_Fighting_Irish_logo.svg/960px-Notre_Dame_Fighting_Irish_logo.svg",
       duration: "2021 - 2024",
       location: "South Bend, IN",
-      gpa: "",
       honors: "Cum Laude",
       degrees: [
         {
@@ -144,7 +143,6 @@ export const resumeData: ResumeData = {
       logo: "https://sportslogohistory.com/wp-content/uploads/2022/11/penn_quakers_2004-2017_a.png",
       duration: "2015 - 2019",
       location: "Philadelphia, PA",
-      gpa: "",
       honors: "",
       degrees: [
         {

@@ -30,11 +30,13 @@ export default function Education() {
                       {edu.school}
                     </h3>
                     <div className="flex items-center gap-3">
-                      <div className="flex items-center justify-center px-3 py-1 bg-blue-500/10 rounded-lg border border-blue-500/20">
-                        <span className="text-sm font-bold text-blue-400 leading-none">
-                          {edu.gpa}
-                        </span>
-                      </div>
+                      {edu.gpa && (
+                        <div className="flex items-center justify-center px-3 py-1 bg-blue-500/10 rounded-lg border border-blue-500/20">
+                          <span className="text-sm font-bold text-blue-400 leading-none">
+                            {edu.gpa}
+                          </span>
+                        </div>
+                      )}
                       <span className="text-xs font-bold text-slate-500 uppercase tracking-widest">
                         {edu.honors}
                       </span>
