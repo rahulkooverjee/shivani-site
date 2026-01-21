@@ -61,7 +61,7 @@ export const resumeData: ResumeData = {
     tagline: (
       <>
         Advising clients on <span className="text-white font-bold">patent litigation</span> and <span className="text-white font-bold">transactional IP matters</span>.
-        <span className="block mt-4">
+        <span className="block mt-2">
           <span className="text-white font-bold">New York State</span> & <span className="text-white font-bold">USPTO</span> bar admissions.
         </span>
       </>
