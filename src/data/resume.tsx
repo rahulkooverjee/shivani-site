@@ -62,7 +62,7 @@ export const resumeData: ResumeData = {
       <>
         Advising clients on <span className="text-white font-bold">patent litigation</span> and <span className="text-white font-bold">transactional IP matters</span>.
         <span className="block mt-2 text-sm md:text-lg opacity-80">
-          Admitted to the <span className="text-white font-bold">New York State Bar</span> and the <span className="text-white font-bold">U.S. Patent and Trademark Office</span>
+          Admitted to practice law in the <span className="text-white font-bold">State of New York</span> and before the <span className="text-white font-bold">U.S. Patent and Trademark Office</span>.
         </span>
       </>
     ),
