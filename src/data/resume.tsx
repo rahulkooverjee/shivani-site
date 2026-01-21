@@ -64,7 +64,7 @@ export const resumeData: ResumeData = {
       </>
     ),
     avatar: "https://media.licdn.com/dms/image/v2/D4E03AQGb24CXMSz23A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732654229324?e=1769644800&v=beta&t=i9BsCx6_NKnHlJWmDT-zDWq50FWb-y-3mvyTsWwNoBY",
-    linkedin: "https://www.linkedin.com/in/rahul-kooverjee",
+    linkedin: "https://www.linkedin.com/in/shivani-prakash-0b33a5149/",
   },
   traits: [
     {
