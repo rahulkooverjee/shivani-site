@@ -53,8 +53,8 @@ export interface ResumeData {
 
 export const resumeData: ResumeData = {
   personal: {
-    name: "Rahul",
-    surname: "Kooverjee",
+    name: "Shivani",
+    surname: "Prakash",
     title: "Senior Product Manager",
     company: "Google",
     tagline: (
