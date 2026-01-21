@@ -62,7 +62,7 @@ export const resumeData: ResumeData = {
       <>
         Advising clients on <span className="text-white font-bold">patent litigation</span> and <span className="text-white font-bold">transactional IP matters</span>.
         <span className="block mt-2">
-          Admitted to practice by <span className="text-white font-bold">New York State</span> & the <span className="text-white font-bold">U.S. Patent and Trademark Office</span>
+          <span className="text-white font-bold">New York State</span> & <span className="text-white font-bold">USPTO</span> bar admissions.
         </span>
       </>
     ),
@@ -91,7 +91,7 @@ export const resumeData: ResumeData = {
   experience: [
     {
       company: "Akin",
-      team: "Intellectual Property Associate",
+      team: "Intellectual Property",
       location: "New York, NY",
       duration: "Present",
       description:
