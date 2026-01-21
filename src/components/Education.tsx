@@ -45,9 +45,22 @@ export default function Education() {
                 {/* Description (Honors & Details) */}
                 <div className="text-slate-400 leading-relaxed whitespace-pre-line">
                   {(edu.honors || edu.gpa) && (
-                    <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-3">
-                      {edu.honors}{edu.honors && edu.gpa ? " • " : ""}{edu.gpa ? `GPA: ${edu.gpa}` : ""}
-                    </p>
+                    <div className="flex flex-wrap items-center gap-2 mb-4">
+                      {edu.honors && (
+                        <div className="px-3 py-1 bg-white/5 rounded-lg border border-white/10">
+                          <span className="text-[10px] font-bold text-slate-300 uppercase tracking-widest">
+                            {edu.honors}
+                          </span>
+                        </div>
+                      )}
+                      {edu.gpa && (
+                        <div className="px-3 py-1 bg-blue-500/10 rounded-lg border border-blue-500/20">
+                          <span className="text-[10px] font-bold text-blue-400 uppercase tracking-widest">
+                            GPA: {edu.gpa}
+                          </span>
+                        </div>
+                      )}
+                    </div>
                   )}
                   {edu.degrees[0]?.detail && (
                     <p>{edu.degrees[0].detail}</p>
