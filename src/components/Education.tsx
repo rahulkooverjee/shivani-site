@@ -10,71 +10,49 @@ export default function Education() {
         {resumeData.education.map((edu, idx) => (
           <div key={idx} className="bento-card p-6 md:p-10">
             <div className="flex flex-col md:flex-row gap-6">
-              {/* Logo Column */}
+              {/* Icon Column */}
               <div className="shrink-0">
                 <div className="w-14 h-14 flex items-center justify-center overflow-hidden">
                   <img
                     src={edu.logo}
-                    className="w-full h-full object-contain"
                     alt={edu.school}
+                    className="w-full h-full object-contain"
                   />
                 </div>
               </div>
 
               {/* Content Column */}
               <div className="flex-1">
-                {/* Header: School & Meta */}
+                {/* Header */}
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4 gap-4">
                   <div>
-                    <h3 className="text-2xl font-bold text-white mb-1">
+                    <h3 className="text-2xl font-bold mb-1">
                       {edu.school}
                     </h3>
+                    {edu.degrees.length > 0 && (
+                      <p className="text-base font-medium text-blue-400">
+                        {edu.degrees[0].degree}
+                      </p>
+                    )}
                   </div>
                   
                   <div className="flex flex-col md:items-end text-xs font-mono text-slate-400 uppercase tracking-[0.1em] shrink-0 pt-1.5">
-                    <span className="uppercase">{edu.duration}</span>
-                    {edu.location && <span>{edu.location}</span>}
+                    <span>{edu.duration}</span>
+                    <span>{edu.location}</span>
                   </div>
                 </div>
 
-                {/* Degrees */}
-                <div className="flex flex-col gap-4">
-                  {edu.degrees.map((degree, dIdx) => (
-                    <div key={dIdx} className="flex flex-col gap-1">
-                      <h4 className="text-lg font-bold text-blue-400">
-                        {degree.degree}
-                      </h4>
-                      <span className="text-sm font-medium text-slate-300">
-                        {degree.school}
-                      </span>
-                      {degree.detail && (
-                        <p className="text-slate-400 text-sm mt-1 leading-relaxed">
-                          {degree.detail}
-                        </p>
-                      )}
-                    </div>
-                  ))}
+                {/* Description (Honors & Details) */}
+                <div className="text-slate-400 leading-relaxed whitespace-pre-line">
+                  {(edu.honors || edu.gpa) && (
+                    <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-3">
+                      {edu.honors}{edu.honors && edu.gpa ? " • " : ""}{edu.gpa ? `GPA: ${edu.gpa}` : ""}
+                    </p>
+                  )}
+                  {edu.degrees[0]?.detail && (
+                    <p>{edu.degrees[0].detail}</p>
+                  )}
                 </div>
-
-                {/* Footer: Honors/GPA */}
-                {(edu.honors || edu.gpa) && (
-                   <div className="mt-6 flex flex-wrap items-center gap-2">
-                      {edu.gpa && (
-                        <div className="px-3 py-1 bg-blue-500/10 rounded-lg border border-blue-500/20">
-                           <span className="text-xs font-bold text-blue-400">
-                             {edu.gpa}
-                           </span>
-                        </div>
-                      )}
-                      {edu.honors && (
-                        <div className="px-3 py-1 bg-white/5 rounded-lg border border-white/10">
-                           <span className="text-xs font-bold text-slate-300 uppercase tracking-wide">
-                             {edu.honors}
-                           </span>
-                        </div>
-                      )}
-                   </div>
-                )}
               </div>
             </div>
           </div>
