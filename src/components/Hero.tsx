@@ -42,21 +42,21 @@ export default function Hero() {
                 {trait.icon === "google" && <GoogleIcon />}
                 {trait.icon === "akin" && (
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Akin.svg/512px-Akin.svg.png"
+                    src="/images/akin-logo-alt.png"
                     className="w-10 h-10 object-contain shrink-0"
                     alt="Akin"
                   />
                 )}
                 {trait.icon === "notre_dame" && (
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Notre_Dame_Fighting_Irish_logo.svg/1200px-Notre_Dame_Fighting_Irish_logo.svg.png"
+                    src="/images/notre-dame-logo-alt.png"
                     className="w-10 h-10 object-contain shrink-0"
                     alt="Notre Dame"
                   />
                 )}
                 {trait.icon === "penn" && (
                   <img
-                    src="https://sportslogohistory.com/wp-content/uploads/2022/11/penn_quakers_2004-2017_a.png"
+                    src="/images/penn-logo.png"
                     className="w-10 h-10 object-contain shrink-0"
                     alt="Penn"
                   />

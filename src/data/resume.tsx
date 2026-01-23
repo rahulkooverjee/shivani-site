@@ -66,20 +66,20 @@ export const resumeData: ResumeData = {
         </span>
       </>
     ),
-    avatar: "https://media.licdn.com/dms/image/v2/D4E03AQEmBPhvhrJfbw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732137454357?e=1770854400&v=beta&t=BIee-2BMa0WHcB23klFy1H9VxRQCRLfTUjbJnMrZmCo",
+    avatar: "/images/shivani-headshot.jpeg",
     linkedin: "https://www.linkedin.com/in/shivani-prakash-0b33a5149/",
   },
   traits: [
     {
       icon: "akin",
-      logo: "https://pbs.twimg.com/profile_images/1973772417580314624/ish6D32g_400x400.png",
+      logo: "/images/akin-logo.png",
       title: "IP Associate",
       subtitle: "Akin",
     },
     {
       icon: "notre_dame",
       title: "Juris Doctor (JD)",
-      logo: "https://logos-world.net/wp-content/uploads/2021/09/Notre-Dame-Symbol.png",
+      logo: "/images/notre-dame-logo.png",
       subtitle: "Notre Dame Law",
     },
     {
@@ -97,7 +97,7 @@ export const resumeData: ResumeData = {
       description:
         "Advising clients on patent litigation and transactional IP matters, including complex mergers, asset/stock purchases and acquisitions, IP licenses, and diligence reviews.",
       icon: null,
-      logo: "https://pbs.twimg.com/profile_images/1973772417580314624/ish6D32g_400x400.png",
+      logo: "/images/akin-logo.png",
       roles: [
         {
           title: "Associate",
@@ -121,7 +121,7 @@ export const resumeData: ResumeData = {
       description:
         "Legal extern for Notre Dame's Intellectual Property clinic.",
       icon: null,
-      logo: "https://logos-world.net/wp-content/uploads/2021/09/Notre-Dame-Symbol.png",
+      logo: "/images/notre-dame-logo.png",
       roles: [
       ],
     },
@@ -133,7 +133,7 @@ export const resumeData: ResumeData = {
       description:
         "Project Assistant / Paralegal in the International Trade division",
       icon: null,
-      logo: "https://pbs.twimg.com/profile_images/1278386943932485632/fc0jRoZl_400x400.jpg",
+      logo: "/images/arent-fox-logo.jpg",
       roles: [
         {
           title: "Paralegal",
@@ -149,7 +149,7 @@ export const resumeData: ResumeData = {
   education: [
     {
       school: "Notre Dame Law School",
-      logo: "https://logos-world.net/wp-content/uploads/2021/09/Notre-Dame-Symbol.png",
+      logo: "/images/notre-dame-logo.png",
       duration: "2021 - 2024",
       location: "South Bend, IN",
       honors: "Cum Laude",
@@ -163,7 +163,7 @@ export const resumeData: ResumeData = {
     },
     {
       school: "University of Pennsylvania",
-      logo: "https://sportslogohistory.com/wp-content/uploads/2022/11/penn_quakers_2004-2017_a.png",
+      logo: "/images/penn-logo.png",
       duration: "2015 - 2019",
       location: "Philadelphia, PA",
       honors: "",
